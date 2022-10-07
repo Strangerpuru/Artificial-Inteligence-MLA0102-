@@ -1,0 +1,12 @@
+printlist([]).
+printlist([X|List]) :- write(X),nl, printlist(List).
+
+
+
+out put:::
+given list of elements:
+1
+2
+3
+4
+printed list(1,2,3,4)
