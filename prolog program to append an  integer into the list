@@ -1,0 +1,7 @@
+append([],L,L).
+append([X|L1],L2,[X|L3]) :- append(L1,L2,L3).
+
+
+out put:::
+given x={2,3,3,6,7}
+append({2,3,3,6},{7}).
